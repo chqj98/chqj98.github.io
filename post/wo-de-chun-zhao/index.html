@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>我的春招 | 启示录</title>
-<link rel="shortcut icon" href="https://chqj98.github.io/favicon.ico?v=1616769590368">
+<link rel="shortcut icon" href="https://chqj98.github.io/favicon.ico?v=1616831136212">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://chqj98.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="我的春招 | 启示录 - Atom Feed" href="https://chqj98.github.io/atom.xml">
@@ -12,11 +12,11 @@
 
 
     <meta name="description" content="本人情况
-本科：南京某大学
+本科：南京某一本大学本科生
 专业：微电子学
 杂技竞赛选手，有国奖。
 啥都学过（嵌入式、fpga、python、pwn（CTF）、DL（ML））一些，啥都不精。
-因为考研耽误了秋招，2月开始准备的春招，海投选手，没有刷过牛客网上那些算法题。（..." />
+因为考研耽误了秋招，2月开始准备的春招，海投选手，没有刷过牛客网上那些..." />
     <meta name="keywords" content="春招,大学毕业" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -26,7 +26,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://chqj98.github.io">
-  <img class="avatar" src="https://chqj98.github.io/images/avatar.png?v=1616769590368" alt="">
+  <img class="avatar" src="https://chqj98.github.io/images/avatar.png?v=1616831136212" alt="">
   </a>
   <h1 class="site-title">
     启示录
@@ -86,7 +86,7 @@
                 2021-03-26
               </span>
               <span>
-                2 min read
+                4 min read
               </span>
               
                 <a href="https://chqj98.github.io/tag/qB24Q8w9Z/" class="post-tag">
@@ -104,7 +104,7 @@
             <div class="post-content-wrapper">
               <div class="post-content">
                 <h2 id="本人情况">本人情况</h2>
-<p>本科：南京某大学</p>
+<p>本科：南京某一本大学本科生</p>
 <p>专业：微电子学</p>
 <p>杂技竞赛选手，有国奖。</p>
 <p>啥都学过（嵌入式、fpga、python、pwn（CTF）、DL（ML））一些，啥都不精。</p>
@@ -130,7 +130,7 @@
 <td>华为</td>
 <td>算法工程师，目前还在池子里泡着</td>
 <td>两个月</td>
-<td>***</td>
+<td>****</td>
 </tr>
 <tr>
 <td>安恒</td>
@@ -178,7 +178,7 @@
 <td>腾讯玄武安全</td>
 <td>硬件安全，一面挂</td>
 <td>三天</td>
-<td>***</td>
+<td>**</td>
 </tr>
 <tr>
 <td>中移物联网</td>
@@ -218,11 +218,36 @@
 </tr>
 </tbody>
 </table>
-<p><strong>面试细节和offer不方便透露太多，担心被公司拉黑</strong><br>
+<p><strong>面试细节和offer不方便透露太多，我担心被公司拉黑</strong><br>
 <strong>面试时间是指从笔试开始到流程结束，没有笔试的公司是从投简历到面试</strong><br>
 <strong>面试难度是本人的主观判断，请理智参考，主要判断标准是技术面试官深挖的程度，星级越高，技术面试官对细节挖的越深，三星及以上难度都会要求现场手撕代码</strong><br>
-<strong>安全类面试因为跨行业面试，所以面试官没有难为我，面试难度也会因此看上去不高</strong></p>
+<strong>安全类和面试因为跨行业面试，所以面试官没有难为我，面试难度也会因此看上去不高</strong></p>
 <h2 id="面试题">面试题</h2>
+<p><strong>以下只列举我还有记忆的面试题</strong></p>
+<h3 id="fpag-芯片设计">FPAG &amp; 芯片设计</h3>
+<ol>
+<li>简单解释以下名词：建立时间、保持时间、输出延时、时钟偏斜。</li>
+<li>简述FPGA内部的实现可编程逻辑原理是什么？是利用了什么器件？</li>
+<li>现场手撕一个异步复位的计数器。</li>
+<li>请利用verilog现场手撕一个2bit乘法器，要求使用数字电路的设计方法。（串行计算/流水线计算）</li>
+<li>给了一个异步fifo的接口，现场复现他的调用方法。</li>
+<li>异步FIFO读时钟是写时钟的100倍，或者写是读的100倍会出现什么问题？</li>
+</ol>
+<h3 id="嵌入式物联网杂项">嵌入式&amp;物联网&amp;杂项</h3>
+<ol>
+<li>大小端知道吗？如何利用几行代码来判断当前储存模式是大端储存还是小端储存。</li>
+<li>adda的硬件实现原理知道吗？ad的数据如何转换才能变成我们需要的数据，公式是什么？</li>
+<li>三次握手和四次挥手知道吗，请细说一下他们的流程。</li>
+<li>mqtt有接触过吗，Socket有用过吗？如何使用的？</li>
+<li>操作系统有接触过吗，进程与线程的区别知道吗，要求从堆栈的角度解读，进程的通信、同步，线程的通信、同步知道多少。内存管理知道多少。</li>
+<li>编译原理有学过吗，bss，text，data知道多少，未初始化全局变量编译后在哪个区域？</li>
+<li>IO口的几种工作模式知道他们的含义吗？要从硬件电路的角度来说。</li>
+<li>嵌入式里的总线有接触过吗，串口、I2C、SPI有用过吗，请详细说说。</li>
+<li>数据结构有学过吗，手撕一个链表类题目（这种题目不赘述，都是牛客网常规题）</li>
+<li>神经网络有接触过多少，卷积的原理知道吗？反向传递的数学原理是什么知道吗？</li>
+<li>在浏览器里通过域名访问网站，这个流程用的协议都有哪些知道吗，能细说吗？</li>
+</ol>
+<p><strong>暂时只记得这么多了</strong></p>
 
               </div>
               <div class="toc-container">
@@ -231,7 +256,12 @@
 <ul>
 <li><a href="#%E6%9C%AC%E4%BA%BA%E6%83%85%E5%86%B5">本人情况</a></li>
 <li><a href="#%E6%9C%AC%E6%AC%A1%E6%98%A5%E6%8B%9B">本次春招</a></li>
-<li><a href="#%E9%9D%A2%E8%AF%95%E9%A2%98">面试题</a></li>
+<li><a href="#%E9%9D%A2%E8%AF%95%E9%A2%98">面试题</a>
+<ul>
+<li><a href="#fpag-%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1">FPAG &amp; 芯片设计</a></li>
+<li><a href="#%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%89%A9%E8%81%94%E7%BD%91%E6%9D%82%E9%A1%B9">嵌入式&amp;物联网&amp;杂项</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
