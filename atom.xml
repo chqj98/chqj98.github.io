@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chqj98.github.io</id>
     <title>启示录</title>
-    <updated>2021-03-27T08:12:46.764Z</updated>
+    <updated>2021-03-27T08:13:25.033Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chqj98.github.io"/>
     <link rel="self" href="https://chqj98.github.io/atom.xml"/>
@@ -159,7 +159,7 @@
 <li>数据结构有学过吗，手撕一个链表类题目（这种题目不赘述，都是牛客网常规题）</li>
 <li>神经网络有接触过多少，卷积的原理知道吗？反向传递的数学原理是什么知道吗？</li>
 <li>在浏览器里通过域名访问网站，这个流程用的协议都有哪些知道吗，能细说吗？</li>
-<li>scanf漏洞的利用可以细说一下吗？堆栈溢出可以细说一下吗？</li>
+<li>scanf漏洞的利用可以细说一下吗？关于堆栈溢出可以细说一下吗？</li>
 </ol>
 <p><strong>暂时只记得这么多了</strong></p>
 ]]></content>
