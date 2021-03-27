@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chqj98.github.io</id>
-    <title>启示录</title>
-    <updated>2021-03-27T10:43:10.386Z</updated>
+    <title>启示鸽</title>
+    <updated>2021-03-27T10:45:00.173Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chqj98.github.io"/>
     <link rel="self" href="https://chqj98.github.io/atom.xml"/>
-    <subtitle>这是启示鸽的博客</subtitle>
+    <subtitle>下次一定，绝对不鸽。</subtitle>
     <logo>https://chqj98.github.io/images/avatar.png</logo>
     <icon>https://chqj98.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 启示录</rights>
+    <rights>All rights reserved 2021, 启示鸽</rights>
     <entry>
         <title type="html"><![CDATA[我的春招]]></title>
         <id>https://chqj98.github.io/post/wo-de-chun-zhao/</id>
